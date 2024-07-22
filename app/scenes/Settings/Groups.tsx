@@ -62,6 +62,7 @@ function Groups() {
             <Trans>All</Trans>
           </h2>
         }
+        options={{ sort: "name", direction: "asc" }}
         renderItem={(item: Group) => (
           <GroupListItem
             key={item.id}
